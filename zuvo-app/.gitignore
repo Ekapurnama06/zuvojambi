@@ -1,0 +1,134 @@
+# --- LOGS (Gabungan Lengkap) ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+firebase-debug.log*
+firebase-debug.*.log*
+
+# --- DIAGNOSTIC REPORTS ---
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# --- FIREBASE CONFIG & CACHE ---
+.firebase/
+.dataconnect
+
+# Uncomment this if you'd like others to create their own Firebase project.
+# For a team working on the same Firebase project(s), it is recommended to leave
+# it commented so all members can deploy to the same project(s) in .firebaserc.
+# .firebaserc
+
+# --- RUNTIME DATA ---
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# --- DIRECTORY FOR INSTRUMENTED LIBS ---
+lib-cov
+
+# --- COVERAGE ---
+coverage
+*.lcov
+.nyc_output
+
+# --- GRUNT ---
+.grunt
+
+# --- BOWER ---
+bower_components
+
+# --- NODE-WAF ---
+.lock-wscript
+
+# --- BUILD / COMPILED ---
+build/Release
+
+# --- DEPENDENCIES ---
+node_modules/
+jspm_packages/
+web_modules/
+
+# --- TYPESCRIPT CACHE ---
+*.tsbuildinfo
+
+# --- NPM & ESLINT CACHE ---
+.npm
+.eslintcache
+.stylelintcache
+
+# --- REPL HISTORY ---
+.node_repl_history
+
+# --- PACK OUTPUT ---
+*.tgz
+
+# --- YARN INTEGRITY ---
+.yarn-integrity
+
+# --- ENVIRONMENT VARIABLES ---
+.env
+.env.*
+!.env.example
+
+# --- PARCEL CACHE ---
+.cache
+.parcel-cache
+
+# --- NEXT.JS BUILD OUTPUT ---
+.next
+out
+
+# --- NUXT.JS ---
+.nuxt
+dist
+
+# --- GATSBY FILES ---
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# --- VUEPRESS ---
+.vuepress/dist
+.temp
+
+# --- SVELTEKIT ---
+.svelte-kit/
+
+# --- VITEPRESS ---
+**/.vitepress/dist
+**/.vitepress/cache
+
+# --- DOCUSAURUS ---
+.docusaurus
+
+# --- SERVERLESS ---
+.serverless/
+
+# --- FUSEBOX ---
+.fusebox/
+
+# --- DYNAMODB LOCAL ---
+.dynamodb/
+
+# --- TERNJS ---
+.tern-port
+
+# --- VSCODE TESTING ---
+.vscode-test
+
+# --- YARN V3 ---
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# --- VITE LOGS ---
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
